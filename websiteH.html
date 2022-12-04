@@ -1,0 +1,22 @@
+<html>
+  <head> 
+    <script src = "https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src = "ajax.js"></script>
+    <script src = "javascriptfile.js"></script>
+  </head>
+  
+  <body onLoad= "getchar();">
+    <h1>Graphical representation of statistics as charts</h1>
+    
+    
+    <div id="barchart"></div>
+    <div id="piechart"></div>
+    
+    Hour: <input type="text" id="hour"></input>
+    <button onClick="getHourData()">Plot it!</button>
+    
+    
+    <div id="linegraph"></div>
+    
+  </body>
+</html>
